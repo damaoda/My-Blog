@@ -1,0 +1,1 @@
+ALERT TABLE user bio VARCHAR (256) NULL;

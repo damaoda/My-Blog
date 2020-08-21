@@ -5,6 +5,7 @@ package com.myblog.lyl.demo.dto;
  * @Date: 2020/8/20 15:28
  * @Author: Yuling Li
  * @Description:
+ * github返回信息中，我们只需要user的name，id和bio信息
  */
 public class GithubUser {
     private String name;

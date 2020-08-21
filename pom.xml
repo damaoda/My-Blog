@@ -79,6 +79,16 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <groupId>org.flywaydb</groupId>
+                <artifactId>flyway-maven-plugin</artifactId>
+                <version>6.5.5</version>
+                <configuration>
+                    <url>jdbc:mysql://127.0.0.1:3306/andriod?serverTimezone=UTC&amp;characterEncoding=utf8</url>
+                    <user>root</user>
+                    <password>admin</password>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

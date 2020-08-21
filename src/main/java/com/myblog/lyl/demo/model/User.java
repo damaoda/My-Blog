@@ -4,7 +4,7 @@ package com.myblog.lyl.demo.model;
  * @program: demo
  * @Date: 2020/8/21 15:52
  * @Author: Yuling Li
- * @Description:
+ * @Description:数据库中的储存形式--User
  */
 public class User {
     private Integer id;

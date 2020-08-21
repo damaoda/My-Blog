@@ -5,6 +5,8 @@ package com.myblog.lyl.demo.dto;
  * @Date: 2020/8/20 14:15
  * @Author: Yuling Li
  * @Description:
+ * 客户端需要发送给github网站的信息：包括id、secret、code、redirect_uri和state
+ * github网站返回GithubUser
  */
 public class AccessTokenDTO {
     private String client_id;
